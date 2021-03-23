@@ -7,8 +7,9 @@ html, body{
     height: 100%;
 }
 body{
-    background: var(--blue);
-    background-size: 100% 100%;
+    background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-royal.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .center{
     margin-left:auto;
