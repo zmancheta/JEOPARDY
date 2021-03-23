@@ -1,0 +1,649 @@
+:root{
+    --blue: linear-gradient(180deg, #0120CB 0%, #011BA9 100%);
+    --yellow: #FFE817;
+    --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body {
+   font-family: sans-serif;
+   color: white;
+   font-size: 2vw;
+   background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-royal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#overlay1 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JTheme_200.png);
+    background-size: 100% 100%;
+}
+#overlay2 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JBook_200.png);
+    background-size: 100% 100%;
+}
+#overlay3 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JLyrics_200.png);
+    background-size: 100% 100%;
+}
+#overlay4 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JMovie_200.png);
+    background-size: 100% 100%;
+}
+#overlay5 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JTheme_400.png);
+    background-size: 100% 100%;
+}
+#overlay6 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JBook_400.png);
+    background-size: 100% 100%;
+}
+#overlay7 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JLyrics_400.png);
+    background-size: 100% 100%;
+}
+#overlay8 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JMovie_400.png);
+    background-size: 100% 100%;
+}
+#overlay9 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JTheme_600.png);
+    background-size: 100% 100%;
+}
+#overlay10 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JBook_600.png);
+    background-size: 100% 100%;
+}
+#overlay11 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JLyrics_600.png);
+    background-size: 100% 100%;
+}
+#overlay12 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JMovie_600.png);
+    background-size: 100% 100%;
+}
+#overlay13 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JTheme_800.png);
+    background-size: 100% 100%;
+}
+#overlay14 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JBook_800.png);
+    background-size: 100% 100%;
+}
+#overlay15 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JLyrics_800.png);
+    background-size: 100% 100%;
+}
+#overlay16 {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(JMovie_800.png);
+    background-size: 100% 100%;
+}
+#end {
+    position:absolute;
+    display: none;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin-left:auto;
+    width: 100%;
+    height: 100%;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFF;
+    z-index:2;
+    background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-royal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.text{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+button{
+    color: var(--yellow);
+    text-shadow: var(--text-shadow);
+    width: 200px;
+    height: 100px; 
+    font-weight:bold;
+    background: var(--blue);
+}
+
+.center{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+}
+
+td{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 0.25em;
+    font-size: 3vw;
+}
+th{
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-size: 2vw;
+}
+#right{
+    float: right;
+    padding-top: 50px;
+    margin-right: 5%;
+}
+span{
+    color: var(--yellow);
+   font-weight:bold;
+}
+#submit1{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit2{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit3{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit4{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit5{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit6{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit7{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit8{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit9{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit10{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit11{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit12{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit13{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit14{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit15{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#submit16{
+    width: 180px;
+    height: 83px;
+    float:inherit;
+    font-size: 2vw;
+    line-height: 1.1;
+}
+#next1{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next2{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next3{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next4{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next5{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next6{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next7{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next8{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next9{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next10{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next11{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next12{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next13{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next14{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next15{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#next16{
+    width: 180px;
+    height: 83px;
+    float: inline-start;
+    font-size: 2vw;
+    display: none;
+}
+#cat1que1,#cat2que1,#cat3que1,#cat4que1{
+    background-image: url(JAmount_200.png);
+    background-size: 100% 100%;
+}
+#cat1que2,#cat2que2,#cat3que2,#cat4que2{
+    background-image: url(JAmount_400.png);
+    background-size: 100% 100%;
+}
+#cat1que3,#cat2que3,#cat3que3,#cat4que3{
+    background-image: url(JAmount_600.png);
+    background-size: 100% 100%;
+}
+#cat1que4,#cat2que4,#cat3que4,#cat4que4{
+    background-image: url(JAmount_800.png);
+    background-size: 100% 100%;
+}
+th{
+    font-size: large;
+}
+.home{
+    float:left;
+    font-size: 25px;
+    margin-left: 5%;
+}
+img{
+    width: 65px;
+    height: 65px;
+}
+.finish{
+    float: right;
+    margin-right: 3%;
+    color: white;
+    border-color: transparent;
+    height: auto;
+}
+.option{
+    font-family: "Gyparody", sans-serif;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#eaecfe, #cdd1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: var(--text-shadow);
+    text-decoration: none;
+    font-size: 23px;
+}
+h1{
+    font-family: "Gyparody", sans-serif;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#eaecfe, #cdd1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: var(--text-shadow);
+    text-decoration: none;
+    font-size:100px;
+}

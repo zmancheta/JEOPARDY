@@ -1,0 +1,55 @@
+html {
+	height: 100%;
+}
+
+:root{
+    --text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    --blue: linear-gradient(180deg, #2E2E3A 0%, #0C0C2C 100%);;
+}
+html, body{
+    height: 100%;
+}
+body{
+	background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-royal.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.center{
+    margin-left:auto;
+    margin-right:auto;
+	text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    font-family: "Gyparody", sans-serif;
+    font-weight: bolder;
+    /*color: linear-gradient(180deg, #eaecfe 0%, #cdd1ff 100%);*/
+    background: -webkit-linear-gradient(#eaecfe, #cdd1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: var(--text-shadow);
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+	text-align: justify;
+    margin-bottom: 1em;
+    font-size: larger;
+    background: -webkit-linear-gradient(#eaecfe, #cdd1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: var(--text-shadow);
+	margin: auto;
+	vertical-align: middle;
+}
+
+a{
+    float:left;
+    font-size: 25px;
+    margin-left: 5%;
+}
+img{
+    width: 65px;
+    height: 65px;
+}
