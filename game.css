@@ -345,7 +345,7 @@ button{
 .center{
     margin-left:auto;
     margin-right:auto;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 td{
@@ -364,7 +364,7 @@ th{
 }
 #right{
     float: right;
-    padding-top: 50px;
+    padding-top: 25px;
     margin-right: 5%;
 }
 span{
